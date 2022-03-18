@@ -1,13 +1,24 @@
 {
   "expo": {
-    "name": "Notiz Mobile",
-    "slug": "notiz-mobile",
+    "name": "Notiz",
+    "slug": "notiz",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
     ],
     "android": {
-      "package": "com.zumthezazaking.notiz"
+      "package": "com.zumthezazaking.notiz",
+      "versionCode": 1,
+      "adaptiveIcon":{
+        "backgroundColor": "#293952",
+        "foregroundColor": "#ffffff",
+        "foregroundImage": "./assets/icon.png"
+      }
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#293952"
     }
   }
 }
